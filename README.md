@@ -18,13 +18,6 @@ http://51.21.245.145
 3. Docker image is built and pushed to Docker Hub
 4. App is automatically deployed to AWS EC2
 
-## Project Structure
-my-devops-app/
-├── .github/workflows/   # CI/CD pipeline
-├── public/              # Frontend
-├── terraform/           # AWS infrastructure as code
-├── app.js               # Node.js server
-└── Dockerfile           # Container config
 ## Infrastructure
 All AWS infrastructure is managed with Terraform:
 - EC2 instance (t3.micro)
